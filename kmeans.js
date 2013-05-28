@@ -2,9 +2,10 @@
 
  KMEANS Clustering Algorithm (2D or N-Dimensional)
 
- KMeans(data, k) 
+ KMeans(data, k):
   k = number of clusters
   data = [[x, y, z, f], [x, y, z, f],...]
+ Return: {centroids : cluster_centroid, clusters : cluster}
 
   Efficiency: NP-hard (Non-deterministic Polynomial-time hard), in computational complexity theory, 
   			is a class of problems that are, informally, "at least as hard as the hardest problems".
@@ -18,7 +19,7 @@
 		The other problem that kmeans doesn't notice the convergance on a cluster centroid without 
 		getting all the points to converge.
 				
- Warning: K-Means doesn't converge on the same data point each time.
+ Warning: K-Means doesn't converge on the same centroids each time.
 
  License: Not for use by students... everyone else have at it (FREE & OPEN SOURCE).
 
