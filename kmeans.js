@@ -29,7 +29,7 @@
 */
 
 function KMeans(data, k) {
-	var centroid = RandomData(data, k);
+	var centroid = RandomK(data, k);
 	return Converge(data, centroid);
 }
 
@@ -125,16 +125,17 @@ function Mean(data){
 	return center;
 }
 
-function RandomData(data, k) {
-	var centroid = [];
+// k random data points
+function RandomK(data, k) {
+	var random = [];
 	var seats = []; 
 	while(k > 0) {
 		var chair = Math.round(Math.random() * data.length);
 		if(seats.indexOf(chair) < 0 && data[chair] != undefined) {
 			seats.push(chair);
-			centroid.push(data[chair]);
+			random.push(data[chair]);
 			k--;
 		}
 	}
-	return centroid;
+	return random;
 }
