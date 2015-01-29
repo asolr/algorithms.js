@@ -6,17 +6,17 @@
   k = number of clusters
   data = [[x, y, z, ...], [x, y, z, ...],...]
 
- Efficiency: Non-deterministic Polynomial, however solves clustering problems computational theory, 
-		The algorithm shown here is costly mostly because it needs to calculate the distances 
+ Efficiency: 	The algorithm shown here is costly mostly because it needs to calculate the distances 
 		between every data point in the set and every perspective centroid recursively.  
-		if you want to help reasearch faster or more careful selections of centroid 
+		If you want to email your ideas or research on faster or more careful centroid 
 		estimation that would be helpful.
 		
  Further Research: There are several important problems to solve in the kmeans clustering algorithm one is the 
-		Nearest Neighbor problem.  The other problem that kmeans doesn't notice the convergance on a cluster 
-		centroid without getting all the points to converge.
+		Nearest Neighbor problem (possible speedup).  
+		The other problem that kmeans doesn't notice the convergance on a cluster 
+		centroid without getting all the points to converge. 
 				
- Warning: K-Means doesn't converge on the same data point each time.
+ Warning Non-Determanistic: K-Means doesn't converge on the same data point each time.
 
  License: Not for use by students... everyone else have at it (FREE & OPEN SOURCE) however I would like to know if 
  	you are working with this code (and I can most likely help and am interested in further research)
