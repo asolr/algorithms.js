@@ -6,21 +6,22 @@
   k = number of clusters
   data = [[x, y, z, ...], [x, y, z, ...],...]
 
- Efficiency: NP-hard (Non-deterministic Polynomial-time hard), in computational complexity theory, 
-		is a class of problems that are, informally, "at least as hard as the hardest problems".
+ Efficiency: Non-deterministic Polynomial, however solves clustering problems computational theory, 
 		The algorithm shown here is costly mostly because it needs to calculate the distances 
-		between every data point and every perspective centroid recursively.  Some research is 
-		needed to speed this up by doing more careful selections of data points and centroid 
-		estimation.
+		between every data point in the set and every perspective centroid recursively.  
+		if you want to help reasearch faster or more careful selections of centroid 
+		estimation that would be helpful.
 		
- About: There are several important problems to solve in the kmeans clustering algorithm one is the 
-		Nearest Neighbor problem.  
-		The other problem that kmeans doesn't notice the convergance on a cluster centroid without 
-		getting all the points to converge.
+ Further Research: There are several important problems to solve in the kmeans clustering algorithm one is the 
+		Nearest Neighbor problem.  The other problem that kmeans doesn't notice the convergance on a cluster 
+		centroid without getting all the points to converge.
 				
  Warning: K-Means doesn't converge on the same data point each time.
 
- License: Not for use by students... everyone else have at it (FREE & OPEN SOURCE).
+ License: Not for use by students... everyone else have at it (FREE & OPEN SOURCE) however I would like to know if 
+ 	you are working with this code (and I can most likely help and am interested in further research)
+ 
+ Donations are Appricated
 
  Date: May 27, 2013 - 2013.05.27
 
